@@ -1,0 +1,661 @@
+.section-hero{
+    display: block;
+}
+
+/* icon align */
+.icon-wrapper .icon, .icon-wrapper .more::after, .icon-wrapper .icon-before::before, .icon-wrapper .icon-after::after, .icon-wrapper .more:not(.icon-before):after {
+    position: relative;
+}
+
+.icon-after::after, .more::after {
+    top: -.1em;
+}
+
+.more:before, .more:after,
+.icon-chevronright:after,
+#ac-globalfooter .ac-gf-more:after {
+    top: -0.08em;
+}
+
+.section-compare .span-pipe.append:after,
+.section-compare .span-pipe:before {
+    transform: translateY(-1px);
+}
+
+.br-360 {
+    display:none;
+}
+
+@media only screen and (max-width: 360px) {
+    .br-360 {
+        display:block;
+    }
+}
+
+/* br */
+.br-1200 {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .br-1200 {
+        display: block;
+    }
+}
+.br-390{
+    display: none;
+}
+@media only screen and (max-width: 390px){
+    .br-390{
+        display: block;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .xsmall-hide{
+           display: none;
+    }
+}
+
+@media screen and (min-width: 735px) and (max-width: 1068px) {
+    .custom-br{
+          display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 355px) {
+    .custom-br{
+          display: none;
+    }
+}
+
+br.small-custom {
+    display: block;
+}
+
+@media only screen and (max-width: 414px) {
+    br.small-custom {
+        display: none;
+    }
+}
+
+.xsmall{
+    display: none;
+}
+@media only screen and (max-width: 320px) {
+    .xsmall{
+           display: block;
+    }
+}
+
+.br-402{
+    display: none;
+}
+@media only screen and (min-width: 402px) and (max-width: 734px){
+    .br-402{
+           display: block;
+    }
+}
+
+@media only screen and (min-width: 1441px){
+    .section-tiles .tile-panel-content.wide{
+        width: 765px;
+    }
+}
+
+@media only screen and (max-width: 734px){
+    .section-compare .device.iphone-se .device-content{
+        margin-top: 62px;
+    }
+}
+
+@media only screen and (min-width: 735px){
+    .section-compare .iphone-14-pro.display .typography-body-reduced.column, .section-compare .iphone-14.display .typography-body-reduced.column, .section-compare .iphone-13.display .typography-body-reduced.column, .section-compare .iphone-se.display .typography-body-reduced.column{
+        height: 1.5em;
+    }
+}
+
+
+/* Screen Localization */
+
+/* appstore */
+.image-appstore {
+    width: 1130px;
+    height: 415px;
+    background-size: 1130px 415px;
+    background-image: url("../../images/overview/appstore__fgafgkupiyie_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .image-appstore {
+        background-image: url("../../images/overview/appstore__fgafgkupiyie_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-appstore {
+        width: 666px;
+        height: 268px;
+        background-size: 666px 268px;
+        background-repeat: no-repeat;
+        background-image: url("../../images/overview/appstore__fgafgkupiyie_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-appstore {
+        background-image: url("../../images/overview/appstore__fgafgkupiyie_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-appstore {
+        width: 414px;
+        height: 222px;
+        background-size: 414px 222px;
+        background-repeat: no-repeat;
+        background-image: url("../../images/overview/appstore__fgafgkupiyie_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-appstore {
+        background-image: url("../../images/overview/appstore__fgafgkupiyie_small_2x.jpg")
+    }
+}
+
+/* hero */
+.section-hero .image-hero {
+    width: 1795px;
+    height: 648px;
+    background-size: 1795px 648px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/overview/hero__coiius911fau_large.jpg);
+    position: relative;
+    left: 50%;
+    margin-left:-897.5px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+    .section-hero .image-hero {
+        background-image:url(../../images/overview/hero__coiius911fau_large_2x.jpg)
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-hero .image-hero {
+        width: 900px;
+        height: 325px;
+        background-size: 900px 325px;
+        background-repeat: no-repeat;
+        margin-left:-450px;
+        background-image:url(../../images/overview/hero__coiius911fau_medium.jpg)
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-hero .image-hero {
+        background-image:url(../../images/overview/hero__coiius911fau_medium_2x.jpg)
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-hero .image-hero {
+        width: 614px;
+        height: 220px;
+        background-size: 614px 220px;
+        background-repeat: no-repeat;
+        margin-left:-307px;
+        background-image:url(../../images/overview/hero__coiius911fau_small.jpg)
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-hero .image-hero {
+        background-image:url(../../images/overview/hero__coiius911fau_small_2x.jpg)
+    }
+}
+
+
+/* move */
+.image-move {
+    width: 859px;
+    height: 348px;
+    background-size: 859px 348px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/overview/move_to_ios__ewwa53yg1mie_large.jpg);
+    bottom:0
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+    .image-move {
+        background-image:url(../../images/overview/move_to_ios__ewwa53yg1mie_large_2x.jpg)
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-move {
+        width: 557px;
+        height: 227px;
+        background-size: 557px 227px;
+        background-repeat: no-repeat;
+        background-image:url(../../images/overview/move_to_ios__ewwa53yg1mie_medium.jpg)
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-move {
+        background-image:url(../../images/overview/move_to_ios__ewwa53yg1mie_medium_2x.jpg)
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-move {
+        width: 414px;
+        height: 172px;
+        background-size: 414px 172px;
+        background-repeat: no-repeat;
+        background-image:url(../../images/overview/move_to_ios__ewwa53yg1mie_small.jpg)
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-move {
+        background-image:url(../../images/overview/move_to_ios__ewwa53yg1mie_small_2x.jpg)
+    }
+}
+
+/* seamless-hardware */
+.image-seamless-hardware {
+    width: 309px;
+    height: 490px;
+    background-size: 309px 490px;
+    background-repeat: no-repeat;
+    background-image:url(../../images/overview/seamless__e38z8yxpidua_large.jpg)
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+    .image-seamless-hardware {
+        background-image:url(../../images/overview/seamless__e38z8yxpidua_large_2x.jpg)
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-seamless-hardware {
+        width: 164px;
+        height: 332px;
+        background-size: 164px 332px;
+        background-repeat: no-repeat;
+        background-image:url(../../images/overview/seamless__e38z8yxpidua_medium.jpg)
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-seamless-hardware {
+        background-image:url(../../images/overview/seamless__e38z8yxpidua_medium_2x.jpg)
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-seamless-hardware {
+        width: 209px;
+        height: 308px;
+        background-size: 209px 308px;
+        background-repeat: no-repeat;
+        background-image:url(../../images/overview/seamless__e38z8yxpidua_small.jpg)
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-seamless-hardware {
+        background-image:url(../../images/overview/seamless__e38z8yxpidua_small_2x.jpg)
+    }
+}
+
+/* apple store */
+.image-apple-store{
+    width: 1400px;
+    height: 550px;
+    background-size: 1400px 550px;
+    background-repeat: no-repeat;
+    background-image: url("../../images/overview/buy_online__fu1vbt65w56q_large.jpg");
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx){
+    .image-apple-store{
+        background-image: url("../../images/overview/buy_online__fu1vbt65w56q_large_2x.jpg");
+    }
+}
+@media only screen and (max-width: 1068px){
+    .image-apple-store{
+        width: 733px;
+        height: 400px;
+        background-size: 733px 400px;
+        background-repeat: no-repeat;
+        background-image: url("../../images/overview/buy_online__fu1vbt65w56q_medium.jpg");
+    }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi){
+    .image-apple-store{
+        background-image: url("../../images/overview/buy_online__fu1vbt65w56q_medium_2x.jpg");
+    }
+}
+@media only screen and (max-width: 734px){
+    .image-apple-store{
+        width: 414px;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../../images/overview/buy_online__fu1vbt65w56q_small.jpg");
+    }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi){
+    .image-apple-store{
+        background-image: url("../../images/overview/buy_online__fu1vbt65w56q_small_2x.jpg");
+    }
+}
+
+.image-safety {
+    width: 1400px;
+    height: 550px;
+    background-size: 1400px 550px;
+    background-repeat: no-repeat;
+    background-image:url(../../images/overview/safety__bxliv7ldxziq_large.jpg)
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+    .image-safety {
+        background-image:url(../../images/overview/safety__bxliv7ldxziq_large_2x.jpg)
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .image-safety {
+        width: 733px;
+        height: 400px;
+        background-size: 733px 400px;
+        background-repeat: no-repeat;
+        background-image:url(../../images/overview/safety__bxliv7ldxziq_medium.jpg)
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .image-safety {
+        background-image:url(../../images/overview/safety__bxliv7ldxziq_medium_2x.jpg)
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .image-safety {
+        width: 414px;
+        height: 358px;
+        background-size: 414px 358px;
+        background-repeat: no-repeat;
+        background-image:url(../../images/overview/safety__bxliv7ldxziq_small.jpg)
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .image-safety {
+        background-image:url(../../images/overview/safety__bxliv7ldxziq_small_2x.jpg)
+    }
+}
+
+@media only screen and (max-width:734px) {
+    .tile-battery .tile-headline {
+        max-width: 276px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+.tile-battery.panel-show .image-battery {
+    transition: opacity .3s ease-out;
+    opacity: 0
+}
+
+
+
+
+/* image-imessage */
+
+@media only screen and (max-width:1068px) {
+    .image-imessage {
+        bottom: 15px
+    }
+}
+
+@media only screen and (max-width:734px) {
+    .image-imessage {
+        bottom: 3px
+    }
+}
+
+/* tile-environment, buystrip */
+.section-buystrip-hero .buystrip-hero .help {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 1068px) {
+    .tile-environment .tile-content  {
+        min-height: 408px !important;
+    }
+    .tile-seamless .tile-content {
+        min-height: 408px;
+    }
+}
+
+@media only screen and (min-width: 735px) {
+    .section-buystrip-hero .buystrip-hero .help {
+        grid-column: span 6;
+    }
+
+}
+
+
+@media only screen and (max-width: 734px) {
+   .tile-environment .tile-content {
+         min-height: 358px !important;
+    }
+    .tile-seamless .tile-content {
+        min-height: 358px;
+    }
+    .tile-apple-store .tile-content {
+        min-height: 400px;
+    }
+    .tile-apple-store .tile-content .tile-image {
+        bottom: 0;
+    }
+}
+
+/* tile move  */
+.section-tiles .tile-move .tile-content{
+    min-height: 550px;
+}
+
+@media only screen and (max-width: 1068px){
+    .section-tiles .tile-move .tile-content{
+        min-height: 400px;
+    }
+}
+
+@media only screen and (max-width: 734px){
+    .section-tiles .tile-move .tile-content{
+        min-height: 388px;
+    }
+    .tile-move .tile-copyblock .tile-headline{
+        max-width:270px;
+    }
+    .tile-imessage .tile-copyblock{
+        padding: 0 23px;
+    }
+}
+
+/* tile durability */
+@media only screen and (max-width: 734px){
+    .tile-durability .tile-headline{
+        max-width: 274px;
+    }
+}
+
+/* tite chip */
+.tile-chip .tile-headline{
+    max-width:318px;
+}
+
+@media only screen and (max-width: 734px){
+    .tile-chip .tile-headline{
+        max-width:226px;
+    }
+}
+
+/* tile trade in */
+
+
+@media only screen and (min-width: 1068px){
+    .tile-trade-in .tile-headline{
+        max-width:459px;
+    }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 735px){
+    .tile-trade-in .tile-headline{
+        max-width:325px;
+    }
+}
+
+/* section-compare */
+.section-compare .links-stacked {
+	display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+@media only screen and (max-width: 330px) {
+	.section-tiles .tile-trade-in .tile-content {
+		min-height: 368px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+    .section-compare .links-stacked {
+        display: block;
+    }
+}
+
+.section-compare .tout{
+    max-width: inherit;
+}
+
+@media only screen and (min-width: 735px) and (max-width: 1068px){
+    .grid-wrapper-alt-line-wrap .tile-apple-store .tile-headline {
+        max-width: 290px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-compare .links-stacked {
+        display: block;
+    }
+}
+
+/* section-features */
+@media only screen and (max-width: 734px) {
+    .section-features .tile-privacy .tile-cta.typography-tile-copy{
+        width:200px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .tile-trade-in .tile-headline {
+        max-width: 350px;
+    }
+
+    .section-tiles .tile-trade-in .tile-copyblock {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .section-tiles .tile-trade-in .tile-copyblock {
+        padding: 0 20px;
+    }
+}
+
+/* compare section face id layout */
+.section-compare .without-cellular .authentication{
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-compare .without-cellular .authentication{
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-compare .without-cellular .authentication{
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
+
+/* compare section link margin-top */
+.section-compare .links-stacked{
+    margin-top: 42px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-compare .links-stacked{
+        margin-top: 42px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .section-compare .links-stacked{
+        margin-top: 34px;
+    }
+}
+
+.custom-align {
+    margin-top: 13px;
+}
+
+/* apple store card layout */
+.tile-apple-store .tile-copyblock{
+    text-align: right;
+}
+
+.tile-apple-store .tile-headline{
+    margin-right: unset;
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-apple-store .tile-copyblock{
+        text-align: left;
+    }
+    
+    .tile-apple-store .tile-headline{
+        margin-right: 0;
+        margin-left: unset;
+    }
+}
+
+/* battery image layout */
+@media only screen and (max-width:1068px){
+    .image-battery {
+        bottom: 73px;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width:734px){
+    .image-battery {
+        bottom: 87px;
+        margin-left: 0px;
+    }
+}
